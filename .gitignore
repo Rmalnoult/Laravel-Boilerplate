@@ -12,3 +12,5 @@ yarn-error.log
 .env
 npm-debug.log
 public/libs
+public/css
+public/js
