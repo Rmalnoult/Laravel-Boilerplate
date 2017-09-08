@@ -19,9 +19,13 @@ First, update .env file with your environement variables such as database creden
 $ composer install
 $ php artisan migrate --seed
 $ php artisan serve
+$ npm install
 $ npm run dev
 $ npm run watch // for live reloading
 ```
+Login: romain@romain.com
+Password: romain
+
 
 ## About Laravel
 
