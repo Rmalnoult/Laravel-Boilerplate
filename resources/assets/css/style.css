@@ -1,0 +1,21 @@
+.text-center {
+    text-align: center;
+}
+.relative {
+    position: relative;
+}
+.desktopOnly {
+    display: block;
+}
+.mobileOnly {
+    display: none;
+}
+.panel-title {
+    padding: 10px;
+}
+.text-white {
+	color: #fff;
+}
+.capitalize {
+	text-transform: capitalize;
+}

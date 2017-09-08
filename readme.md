@@ -4,22 +4,23 @@
 
 This repository is a boilerplate for Laravel projects. It is initialized with :
 
-- User authentification scaffolding.
-- User role management.
-- User seeds.
-- Browsersync for live reloading.
-- Bower + bootstrap, font awesome, highcharts
+- User authentification scaffolding
+- Social authentification
+- User role management
+- User seeds
+- Browsersync for live reloading
+- Bootstrap, Vue, Font Awesome
 
 ## Installation
 
-First, update .env file with your environement variables such as database credentials.
+First, update .env file with your environement variables such as database credentials, facebook app ID, etc.
 
 ```
 $ composer install
 $ php artisan migrate --seed
 $ php artisan serve
 $ npm run dev
-$ npm run watch
+$ npm run watch // for live reloading
 ```
 
 ## About Laravel

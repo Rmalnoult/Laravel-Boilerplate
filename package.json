@@ -21,6 +21,6 @@
     "vue": "^2.1.10"
   },
   "dependencies": {
-    "bower": "^1.8.0"
+    "font-awesome": "^4.7.0"
   }
 }
