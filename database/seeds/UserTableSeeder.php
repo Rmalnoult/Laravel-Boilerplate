@@ -11,6 +11,7 @@ class UserTableSeeder extends Seeder
         DB::table('roles')->delete();
         DB::table('roles')->insert(array(
             array("id" => 1, "name" => 'admin', 'created_at' => $date, 'updated_at' => $date),
+            array("id" => 2, "name" => 'visitor', 'created_at' => $date, 'updated_at' => $date),
         ));
 
         DB::table('users')->delete();

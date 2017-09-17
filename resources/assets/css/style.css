@@ -19,3 +19,9 @@
 .capitalize {
 	text-transform: capitalize;
 }
+.cursor-pointer {
+	cursor: pointer;
+}
+.color-inherit {
+	color: inherit;
+}

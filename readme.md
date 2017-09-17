@@ -16,10 +16,10 @@ This repository is a boilerplate for Laravel projects. It is initialized with :
 First, update .env file with your environement variables such as database credentials, facebook app ID, etc.
 
 ```
-$ composer install
+$ composer install && npm install
+$ php artisan key:generate
 $ php artisan migrate --seed
 $ php artisan serve
-$ npm install
 $ npm run dev
 $ npm run watch // for live reloading
 ```

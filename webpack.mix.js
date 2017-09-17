@@ -29,4 +29,5 @@ mix.styles([
 mix.browserSync({
 	proxy: 'localhost:8000',
 	browser: 'firefox',
+	// notify: false
 });
