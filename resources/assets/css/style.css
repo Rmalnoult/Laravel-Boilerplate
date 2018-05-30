@@ -25,3 +25,11 @@
 .color-inherit {
 	color: inherit;
 }
+#app {
+	overflow: hidden;
+}
+.cover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
