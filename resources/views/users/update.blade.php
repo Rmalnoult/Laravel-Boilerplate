@@ -4,9 +4,9 @@
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-		<div class="panel panel-default">
-			<div class="panel-heading"><h3 class="panel-title">Modifier l'utilisateur {{ $user->name }}</h3></div>
-			<div class="panel-body">
+		<div class="card card-default">
+			<div class="card-heading"><h3 class="card-title">Modifier l'utilisateur {{ $user->name }}</h3></div>
+			<div class="card-body">
 				{!! Form::open(['url' => '/users/'.$user->id.'/update/', 'class' => 'form-horizontal', 'method' => 'PUT', 'id' => 'userForm']) !!}
 
 					<div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">

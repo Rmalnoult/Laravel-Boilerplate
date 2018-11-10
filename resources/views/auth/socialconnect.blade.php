@@ -20,8 +20,8 @@
 
 <br>
 
-<div class="panel panel-default panel-black">
-	<div class="panel-body">
+<div class="card card-default card-black">
+	<div class="card-body">
 		<div class="text-center" style="width: 250px; margin: 0 auto;">
 		    <a class="btn btn-block btn-social btn-facebook" href="/auth/facebook">
 		      <span class="fa fa-facebook-f"></span>

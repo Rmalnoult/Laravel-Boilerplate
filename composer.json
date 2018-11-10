@@ -6,9 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "fideloper/proxy": "~3.3",
+        "fideloper/proxy": "~4.0",
         "fzaninotto/faker": "^1.7",
-        "laravel/framework": "5.5.*",
+        "laravel/framework": "5.7.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "~5.0"

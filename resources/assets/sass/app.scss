@@ -6,11 +6,11 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
 // Font Awesome
 $fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
 @import 'node_modules/font-awesome/scss/font-awesome.scss';
 
 // Bootstrap social
-@import 'node_modules/bootstrap-social/bootstrap-social.scss';
+// @import 'node_modules/bootstrap-social/bootstrap-social.scss';

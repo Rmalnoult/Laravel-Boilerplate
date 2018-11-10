@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="container">
-	<div class="panel panel-default">
-		<div class="panel-body">
-			<h3 class="panel-title pull-left">Users ({{ $users->count() }})</h3>
+	<div class="card card-default">
+		<div class="card-body">
+			<h3 class="card-title pull-left">Users ({{ $users->count() }})</h3>
 			<div class="clearfix"></div>
 		</div>
 
@@ -46,7 +46,7 @@
 			</tbody>
 		</table>
 
-		<div class="panel-footer">
+		<div class="card-footer">
 			<div class="text-center">{{$users->render()}}</div>
 		</div>
 	</div>
